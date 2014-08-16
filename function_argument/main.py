@@ -63,4 +63,7 @@ try:
     pe('func5(0,1,2,b0=20,b1=21,a3=3,a4=4)')
 except:
     traceback.print_exc()
-pe('func5(0,1,2,3,4,10,11,12,b0=20,b1=21)')
+try:
+    pe('func5(0,1,2,3,4,10,11,12,b0=20,b1=21)')
+except:
+    traceback.print_exc()
